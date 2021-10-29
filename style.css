@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  color: #525252;
+}
+
+.main {
+  margin: 8px;
+}
+
+/* HEADER FORM */
+.main .header-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main .header-form .bg {
+  width: 80vw 20vw;
+}
+
+.main .header-form .bg img {
+  border-radius: 8px 8px 0px 8px;
+  height: 98vh;
+  object-fit: cover;
+}
+
+/*FORM*/
+
+.main .form {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .form .header img,
+.main .form .header div {
+  margin: 16px;
+}
+
+.main .form .header div h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.main .form .header div span {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.main .form .btns-login {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.main .form .btns-login .btn {
+  margin: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid #e8e8e8;
+  background: none;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.main .form .btns-login .btn:hover {
+  cursor: pointer;
+  background: #757575;
+  color: #e8e8e8;
+  border: 2px solid #757575;
+}
+
+.main .form .btns-login .btn i {
+  text-align: center;
+}
+
+.main .form .middle-form span {
+  margin: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* FOOTER FORM */
+
+.main .form .form-footer {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main .form .form-footer span {
+  margin: 8px 0px;
+}
+
+.main .form .form-footer input {
+  padding: 8px;
+}
+.main .form .form-footer .forgot-pass {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px;
+}
+.main .form .form-footer .forgot-pass div {
+  align-items: center;
+}
+
+.main .form .form-footer .forgot-pass a {
+  text-decoration: none;
+  color: #7f265b;
+}
+
+.main .form .form-footer .btn-login {
+  background-color: #7f265b;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+}
+
+.main .form .form-footer .create-account {
+  margin: 13px;
+}
+.main .form .form-footer .create-account a {
+  text-decoration: none;
+  color: #7f265b;
+  font-weight: 600;
+}
