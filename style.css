@@ -13,53 +13,53 @@ body {
   margin: 8px;
 }
 
-/* HEADER FORM */
-.main .header-form {
+/* HEADER login-area */
+.main .header-login {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.main .header-form .bg {
+.main .header-login .bg {
   width: 80vw 20vw;
 }
 
-.main .header-form .bg img {
+.main .header-login .bg img {
   border-radius: 8px 8px 0px 8px;
   height: 98vh;
   object-fit: cover;
 }
 
-/*FORM*/
+/*login-area*/
 
-.main .form {
+.main .login-area {
   margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.main .form .header img,
-.main .form .header div {
+.main .login-area .header img,
+.main .login-area .header div {
   margin: 16px;
 }
 
-.main .form .header div h1 {
+.main .login-area .header div h1 {
   font-size: 2rem;
   font-weight: 700;
 }
 
-.main .form .header div span {
+.main .login-area .header div span {
   font-size: 0.9rem;
   font-weight: 300;
 }
 
-.main .form .btns-login {
+.main .login-area .btns-login {
   display: flex;
   flex-direction: column;
   width: 300px;
 }
 
-.main .form .btns-login .btn {
+.main .login-area .btns-login .btn {
   margin: 8px;
   padding: 8px;
   border-radius: 8px;
@@ -69,64 +69,64 @@ body {
   transition: all 0.5s;
 }
 
-.main .form .btns-login .btn:hover {
+.main .login-area .btns-login .btn:hover {
   cursor: pointer;
   background: #757575;
   color: #e8e8e8;
   border: 2px solid #757575;
 }
 
-.main .form .btns-login .btn i {
+.main .login-area .btns-login .btn i {
   text-align: center;
 }
 
-.main .form .middle-form span {
+.main .login-area .middle-login-area span {
   margin: 8px;
   font-size: 14px;
   font-weight: 300;
 }
 
-/* FOOTER FORM */
+/* FOOTER login-area */
 
-.main .form .form-footer {
+.main .login-area .login-area-footer {
   width: 300px;
   display: flex;
   flex-direction: column;
 }
 
-.main .form .form-footer span {
+.main .login-area .login-area-footer span {
   margin: 8px 0px;
 }
 
-.main .form .form-footer input {
+.main .login-area .login-area-footer input {
   padding: 8px;
 }
-.main .form .form-footer .forgot-pass {
+.main .login-area .login-area-footer .forgot-pass {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 16px;
 }
-.main .form .form-footer .forgot-pass div {
+.main .login-area .login-area-footer .forgot-pass div {
   align-items: center;
 }
 
-.main .form .form-footer .forgot-pass a {
+.main .login-area .login-area-footer .forgot-pass a {
   text-decoration: none;
   color: #7f265b;
 }
 
-.main .form .form-footer .btn-login {
+.main .login-area .login-area-footer .btn-login {
   background-color: #7f265b;
   padding: 12px;
   border: none;
   border-radius: 8px;
 }
 
-.main .form .form-footer .create-account {
+.main .login-area .login-area-footer .create-account {
   margin: 13px;
 }
-.main .form .form-footer .create-account a {
+.main .login-area .login-area-footer .create-account a {
   text-decoration: none;
   color: #7f265b;
   font-weight: 600;
