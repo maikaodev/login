@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./create-account.css" />
+    <title>Create Account - Maikãodev</title>
+  </head>
+  <body>
+    <main>
+      <div class="button-back">
+        <a href="./index.html">
+          <button class="back">Back</button>
+        </a>
+      </div>
+      <div class="container">
+        <h2>Fill out the form with the correct information</h2>
+        <div>
+          <div class="name">
+            <label for="first-name">
+              <span>First Name:</span>
+              <input type="text" id="first-name" required />
+            </label>
+            <label for="last-name">
+              <span>Last Name:</span>
+              <input type="text" id="last-name" required />
+            </label>
+          </div>
+          <div class="age">
+            <label for="date-of-birth">
+              <span>Date of Birth</span>
+              <input type="date" id="date-of-birth" required />
+            </label>
+          </div>
+          <div class="sexual-orietation">
+            <span>Sexual orientation:</span>
+            <div class="options">
+              <div class="select-options">
+                <input type="radio" id="heterosexual" />
+                <span id="heterosexual"> Heterosexual </span>
+                <input type="radio" id="bisexual" />
+                <span id="bisexual"> Bisexual </span>
+              </div>
+              <span id="other">Other</span>
+              <input
+                type="text"
+                id="other"
+                placeholder="How do you identify yourself?"
+                required
+              />
+            </div>
+          </div>
+          <div class="date">
+            <label for="email">
+              <span>Email:</span>
+              <input
+                type="email"
+                placeholder="mail@gmail.com"
+                id="email"
+                required
+              />
+            </label>
+            <label for="phone">
+              <span>Phone:</span>
+              <input type="tel" id="phone" placeholder="123-456-789" required />
+            </label>
+          </div>
+        </div>
+        <div class="send">
+          <button>Send</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

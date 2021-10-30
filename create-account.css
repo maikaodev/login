@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  background-color: #333;
+  display: grid;
+  place-items: center;
+  margin: 80px auto;
+}
+main {
+  background-color: #ffe6c9;
+  max-width: 1000px;
+  border-radius: 8px;
+}
+
+main .back {
+  font-weight: 700;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  background-color: #7f265b;
+  color: #fff;
+
+  padding: 8px;
+  border-radius: 0px 0px 8px 0px;
+  border: none;
+}
+
+.container {
+  padding: 24px;
+}
+
+.container div {
+  display: grid;
+  grid-gap: 16px;
+}
+
+.container h2 {
+  margin-bottom: 16px;
+}
+
+.container .sexual-orietation .options .select-options {
+  display: flex;
+  align-items: center;
+}
+.container .sexual-orietation .options input {
+  padding: 8px;
+  display: inline;
+}
+
+.container .date {
+  margin-bottom: 32px;
+}
+
+.container .date input {
+  padding: 6px;
+}
+.container .date #email {
+  margin-left: 6px;
+}
+.container .send button {
+  background-color: #7f265b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+
+  font-weight: 700;
+
+  width: 250px;
+  margin: auto;
+  padding: 16px;
+}
