@@ -1,8 +1,8 @@
 Melhorias
 
-[x] Alterar a nomeclatura, não é formulário
-[ ] Responsividade
-[x] Criar um formulário para criação de conta
+- [x] Alterar a nomeclatura, não é formulário
+- [ ] Responsividade
+- [x] Criar um formulário para criação de conta
 
 Link
 
