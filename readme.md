@@ -1,9 +1,13 @@
-## Melhorias
+## Login
 
-- [x] Alterar a nomeclatura, não é formulário
-- [ ] Responsividade
-- [x] Criar um formulário para criação de conta
-
-## Link
+## LINK - Deploy
 
 https://login-maikaodev.netlify.app/
+
+## LinkedIn
+
+https://www.linkedin.com/in/maikaodev/
+
+## Descrição
+
+- Tele de login criada com HTML e CSS.
